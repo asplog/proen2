@@ -4,9 +4,8 @@ CFLAGS=-O2 -pipe
 CXXFLAGS=$(CFLAGS)
 LDFLAGS=-lm
 
-.SUFFIXES:	.c	.o	.h	.exe
+.SUFFIXES:	.c	.h	.o
 
-.c.o
-	$(CC) -c $(CFLAGS) -o $@ $<
-.o.exe
-	$(CC) -o $@ $< $(LDFLAGS)
+.c.o:
+	$(CC) -c $(CFLAGS) $<
+
