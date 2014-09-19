@@ -1,0 +1,16 @@
+code: JZK-30
+name: Jizake_tsumeawase
+price: 4500
+
+code: BSP-15
+name: Body_soap_set
+price: 3000
+
+code: BT-200
+name: Bath_towel_set
+price: 2500
+
+code: TEA-20
+name: Koutya_tsumeawase
+price: 5000
+
